@@ -1,0 +1,3 @@
+PRODUCT_PACKAGES += ESFileExplorer
+PRODUCT_PACKAGES += WifiAnalyzer
+PRODUCT_PACKAGES += Autonavi

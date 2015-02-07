@@ -1,0 +1,7 @@
+[
+  {
+    "repository":  "android_kernel_rockchip_rk3188",
+    "target_path": "kernel/rockchip/rk3188",
+    "revision":    "android-4.4"
+  },
+]
