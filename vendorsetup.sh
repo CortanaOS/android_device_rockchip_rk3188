@@ -1,1 +1,1 @@
-add_lunch_combo rk3188-userdebug
+add_lunch_combo omni_rk3188-userdebug

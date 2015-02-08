@@ -26,6 +26,7 @@ BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
 # To use bmp as kernel logo, uncomment the line below to use bgra 8888 in recovery
 #TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_UI_LIB := librecovery_ui_rk3188
+TARGET_RECOVERY_FSTAB = device/rockchip/rk3188/fstab.rk3188
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_CPU_SMP ?= true
 BOARD_USES_GENERIC_AUDIO ?= true
@@ -120,6 +121,13 @@ BUILD_WITH_MULTI_USB_PARTITIONS := false
 
 # no battery
 BUILD_WITHOUT_BATTERY := true
+
+#Kernel building
+TARGET_PREBUILT_KERNEL := kernel/rockchip/rk3188/arch/arm/boot/Image
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_KERNEL_SOURCE := kernel/rockchip/rk3188
+TARGET_KERNEL_CONFIG := rk3188_defconfig
 
 #TWRP
 DEVICE_RESOLUTION := 1024x600

@@ -1,7 +1,17 @@
 [
   {
+    "remote": 	   "https://github.com/burmjeff",
     "repository":  "android_kernel_rockchip_rk3188",
-    "target_path": "kernel/rockchip/rk3188",
-    "revision":    "android-4.4"
+    "target_path": "kernel/rockchip/rk3188"
   },
+  {
+    "remote":	   "https://github.com/burmjeff",
+    "repository":  "android_device_rockchip_rk3188",
+    "target_path": "device/rockchip/rk2188"
+  },
+  {
+    "remote":	   "https://github.com/burmjeff",
+    "repository":  "android_hardware_rk29",
+    "target_path": "hardware/rk29"
+  }
 ]

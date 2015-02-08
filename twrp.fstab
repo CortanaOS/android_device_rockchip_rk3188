@@ -4,6 +4,8 @@
 /system              ext4        /dev/block/platform/emmc/by-name/system
 /data                ext4        /dev/block/platform/emmc/by-name/userdata
 /cache               ext4        /dev/block/platform/emmc/by-name/cache
+/metadata            ext4        /dev/block/platform/emmc/by-name/metadata
+/misc                emmc        /dev/block/platform/emmc/by-name/misc
 /boot                emmc        /dev/block/platform/emmc/by-name/boot
 /recovery            emmc        /dev/block/platform/emmc/by-name/recovery
 /internal_sd         vfat        /dev/block/platform/emmc/by-name/user 

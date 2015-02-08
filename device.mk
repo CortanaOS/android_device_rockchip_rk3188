@@ -328,7 +328,7 @@ else
 endif
 
 ########################################################
-# build without barrery
+# build without battery
 ########################################################
 ifeq ($(strip $(BUILD_WITHOUT_BATTERY)),true)
     PRODUCT_PROPERTY_OVERRIDES += \
