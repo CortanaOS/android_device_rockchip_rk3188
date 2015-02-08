@@ -1,7 +1,7 @@
 [
   {
-    "remote": 	   "https://github.com/burmjeff",
-    "repository":  "android_kernel_rockchip_rk3188",
+    "remote": 	   "red13",
+    "repository":  "android_kernel",
     "target_path": "kernel/rockchip/rk3188"
   },
   {
