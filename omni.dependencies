@@ -2,16 +2,31 @@
   {
     "remote": 	   "red13",
     "repository":  "android_kernel",
-    "target_path": "kernel/rockchip/rk3188"
+    "target_path": "kernel/rockchip/rk3188",
+    "revision": "master"
   },
   {
-    "remote":	   "https://github.com/burmjeff",
+    "remote":	   "burmjeff",
     "repository":  "android_device_rockchip_rk3188",
-    "target_path": "device/rockchip/rk2188"
+    "target_path": "device/rockchip/rk3188",
+    "revision": "master"
   },
   {
-    "remote":	   "https://github.com/burmjeff",
+    "remote":	   "burmjeff",
     "repository":  "android_hardware_rk29",
-    "target_path": "hardware/rk29"
+    "target_path": "hardware/rk29",
+    "revision": "master"
+  },
+  {
+    "remote":      "burmjeff",
+    "repository":  "android_vendor_widevine",
+    "target_path": "vendor/widevine",
+    "revision": "master"
+  },
+  {
+    "remote":      "burmjeff",
+    "repository":  "android_vendor_bonovo",
+    "target_path": "vendor/bonovo",
+    "revision": "master"
   }
 ]
